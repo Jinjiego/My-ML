@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a50e698f-1162-4e9d-8d98-651a0c56417f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>My_ML.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>My ML</Name>
+    <RootNamespace>My ML</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CH03\DTreeTest.py" />
+    <Compile Include="CH03\trees.py" />
+    <Compile Include="CH03\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch05\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch05\Logistic.py" />
+    <Compile Include="Ch06\SVM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch06\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch07\AdaBoost.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch07\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch09\CART.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch09\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My_ML.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CH03\" />
+    <Folder Include="Ch05\" />
+    <Folder Include="Ch06\" />
+    <Folder Include="Ch07\" />
+    <Folder Include="Ch09\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CH03\classifierStorage.txt" />
+    <Content Include="CH03\lenses.txt" />
+    <Content Include="Ch05\horseColicTest.txt" />
+    <Content Include="Ch05\horseColicTraining.txt" />
+    <Content Include="Ch05\testSet.txt" />
+    <Content Include="Ch06\testSet.txt" />
+    <Content Include="Ch06\testSetRBF.txt" />
+    <Content Include="Ch06\testSetRBF2.txt" />
+    <Content Include="Ch07\horseColicTest2.txt" />
+    <Content Include="Ch07\horseColicTraining2.txt" />
+    <Content Include="Ch09\bikeSpeedVsIq_test.txt" />
+    <Content Include="Ch09\bikeSpeedVsIq_train.txt" />
+    <Content Include="Ch09\ex0.txt" />
+    <Content Include="Ch09\ex00.txt" />
+    <Content Include="Ch09\ex2.txt" />
+    <Content Include="Ch09\ex2test.txt" />
+    <Content Include="Ch09\exp.txt" />
+    <Content Include="Ch09\exp2.txt" />
+    <Content Include="Ch09\expTest.txt" />
+    <Content Include="Ch09\sine.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
