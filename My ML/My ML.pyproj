@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a50e698f-1162-4e9d-8d98-651a0c56417f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>My_ML.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,20 +43,38 @@
     <Compile Include="Ch07\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Ch08\Regression.py" />
+    <Compile Include="Ch08\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Ch09\CART.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Ch09\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="My_ML.py" />
+    <Compile Include="Ch11\Apriori.py" />
+    <Compile Include="Ch11\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch12\FP_growth.py" />
+    <Compile Include="Ch12\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CH03\" />
     <Folder Include="Ch05\" />
     <Folder Include="Ch06\" />
     <Folder Include="Ch07\" />
+    <Folder Include="Ch08\" />
     <Folder Include="Ch09\" />
+    <Folder Include="Ch11\" />
+    <Folder Include="Ch11\__pycache__\" />
+    <Folder Include="Ch12\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CH03\classifierStorage.txt" />
@@ -69,6 +87,9 @@
     <Content Include="Ch06\testSetRBF2.txt" />
     <Content Include="Ch07\horseColicTest2.txt" />
     <Content Include="Ch07\horseColicTraining2.txt" />
+    <Content Include="Ch08\abalone.txt" />
+    <Content Include="Ch08\ex0.txt" />
+    <Content Include="Ch08\ex1.txt" />
     <Content Include="Ch09\bikeSpeedVsIq_test.txt" />
     <Content Include="Ch09\bikeSpeedVsIq_train.txt" />
     <Content Include="Ch09\ex0.txt" />
@@ -79,6 +100,9 @@
     <Content Include="Ch09\exp2.txt" />
     <Content Include="Ch09\expTest.txt" />
     <Content Include="Ch09\sine.txt" />
+    <Content Include="Ch11\mushroom.dat" />
+    <Content Include="Ch11\__pycache__\Apriori.cpython-35.pyc" />
+    <Content Include="Ch12\kosarak.dat" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
