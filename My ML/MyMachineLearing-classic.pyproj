@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a50e698f-1162-4e9d-8d98-651a0c56417f</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MyMachineLearing-classic</Name>
+    <RootNamespace>My ML</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="additions\CRF\crf.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="additions\CRF\Logspace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="additions\CRF\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="additions\CRF\crf_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="additions\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bayes\Bayes.py" />
+    <Compile Include="Bayes\BayesTest.py" />
+    <Compile Include="Bayes\__init__.py" />
+    <Compile Include="Ch10\test.py" />
+    <Compile Include="DecisionTree\DTreeTest.py" />
+    <Compile Include="DecisionTree\trees.py" />
+    <Compile Include="DecisionTree\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogisticRegression\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogisticRegression\Logistic.py" />
+    <Compile Include="SVM\SVM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SVM\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Boost\AdaBoost.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Boost\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearRegression\Regression.py" />
+    <Compile Include="LinearRegression\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CART\CART.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CART\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Apriori\Apriori.py" />
+    <Compile Include="Apriori\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FpGrowth\FP_growth.py" />
+    <Compile Include="FpGrowth\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="experiments\GBDT.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="experiments\Gradient.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GBDT\gbdt\data.py" />
+    <Compile Include="GBDT\gbdt\model.py" />
+    <Compile Include="GBDT\gbdt\tree.py" />
+    <Compile Include="GBDT\gbdt\__init__.py" />
+    <Compile Include="GBDT\startup.py" />
+    <Compile Include="Main.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="additions\CRF\" />
+    <Folder Include="Bayes\" />
+    <Folder Include="Bayes\__pycache__\" />
+    <Folder Include="Ch10\" />
+    <Folder Include="DecisionTree\" />
+    <Folder Include="LogisticRegression\" />
+    <Folder Include="SVM\" />
+    <Folder Include="Boost\" />
+    <Folder Include="LinearRegression\" />
+    <Folder Include="CART\" />
+    <Folder Include="Apriori\" />
+    <Folder Include="FpGrowth\" />
+    <Folder Include="additions\" />
+    <Folder Include="GBDT\" />
+    <Folder Include="GBDT\.git\" />
+    <Folder Include="GBDT\.git\hooks\" />
+    <Folder Include="GBDT\.git\info\" />
+    <Folder Include="GBDT\.git\logs\" />
+    <Folder Include="GBDT\.git\logs\refs\" />
+    <Folder Include="GBDT\.git\logs\refs\heads\" />
+    <Folder Include="GBDT\.git\logs\refs\remotes\" />
+    <Folder Include="GBDT\.git\logs\refs\remotes\origin\" />
+    <Folder Include="GBDT\.git\objects\" />
+    <Folder Include="GBDT\.git\objects\02\" />
+    <Folder Include="GBDT\.git\objects\08\" />
+    <Folder Include="GBDT\.git\objects\0e\" />
+    <Folder Include="GBDT\.git\objects\10\" />
+    <Folder Include="GBDT\.git\objects\14\" />
+    <Folder Include="GBDT\.git\objects\16\" />
+    <Folder Include="GBDT\.git\objects\1a\" />
+    <Folder Include="GBDT\.git\objects\28\" />
+    <Folder Include="GBDT\.git\objects\29\" />
+    <Folder Include="GBDT\.git\objects\34\" />
+    <Folder Include="GBDT\.git\objects\37\" />
+    <Folder Include="GBDT\.git\objects\53\" />
+    <Folder Include="GBDT\.git\objects\5b\" />
+    <Folder Include="GBDT\.git\objects\5c\" />
+    <Folder Include="GBDT\.git\objects\5d\" />
+    <Folder Include="GBDT\.git\objects\66\" />
+    <Folder Include="GBDT\.git\objects\67\" />
+    <Folder Include="GBDT\.git\objects\6b\" />
+    <Folder Include="GBDT\.git\objects\70\" />
+    <Folder Include="GBDT\.git\objects\72\" />
+    <Folder Include="GBDT\.git\objects\73\" />
+    <Folder Include="GBDT\.git\objects\74\" />
+    <Folder Include="GBDT\.git\objects\79\" />
+    <Folder Include="GBDT\.git\objects\8e\" />
+    <Folder Include="GBDT\.git\objects\96\" />
+    <Folder Include="GBDT\.git\objects\99\" />
+    <Folder Include="GBDT\.git\objects\a1\" />
+    <Folder Include="GBDT\.git\objects\a2\" />
+    <Folder Include="GBDT\.git\objects\ae\" />
+    <Folder Include="GBDT\.git\objects\b2\" />
+    <Folder Include="GBDT\.git\objects\b8\" />
+    <Folder Include="GBDT\.git\objects\c0\" />
+    <Folder Include="GBDT\.git\objects\c4\" />
+    <Folder Include="GBDT\.git\objects\c9\" />
+    <Folder Include="GBDT\.git\objects\cc\" />
+    <Folder Include="GBDT\.git\objects\d3\" />
+    <Folder Include="GBDT\.git\objects\d5\" />
+    <Folder Include="GBDT\.git\objects\da\" />
+    <Folder Include="GBDT\.git\objects\de\" />
+    <Folder Include="GBDT\.git\objects\e6\" />
+    <Folder Include="GBDT\.git\objects\e7\" />
+    <Folder Include="GBDT\.git\objects\e8\" />
+    <Folder Include="GBDT\.git\objects\f0\" />
+    <Folder Include="GBDT\.git\objects\f8\" />
+    <Folder Include="GBDT\.git\objects\info\" />
+    <Folder Include="GBDT\.git\objects\pack\" />
+    <Folder Include="GBDT\.git\refs\" />
+    <Folder Include="GBDT\.git\refs\heads\" />
+    <Folder Include="GBDT\.git\refs\remotes\" />
+    <Folder Include="GBDT\.git\refs\remotes\origin\" />
+    <Folder Include="GBDT\.git\refs\tags\" />
+    <Folder Include="GBDT\data\" />
+    <Folder Include="GBDT\gbdt\" />
+    <Folder Include="experiments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="additions\CRF\test.txt" />
+    <Content Include="additions\CRF\train.txt" />
+    <Content Include="Bayes\__pycache__\Bayes.cpython-35.pyc" />
+    <Content Include="Bayes\__pycache__\BayesTest.cpython-35.pyc" />
+    <Content Include="Bayes\__pycache__\__init__.cpython-35.pyc" />
+    <Content Include="DecisionTree\classifierStorage.txt" />
+    <Content Include="DecisionTree\lenses.txt" />
+    <Content Include="LogisticRegression\horseColicTest.txt" />
+    <Content Include="LogisticRegression\horseColicTraining.txt" />
+    <Content Include="LogisticRegression\testSet.txt" />
+    <Content Include="SVM\testSet.txt" />
+    <Content Include="SVM\testSetRBF.txt" />
+    <Content Include="SVM\testSetRBF2.txt" />
+    <Content Include="Boost\horseColicTest2.txt" />
+    <Content Include="Boost\horseColicTraining2.txt" />
+    <Content Include="LinearRegression\abalone.txt" />
+    <Content Include="LinearRegression\ex0.txt" />
+    <Content Include="LinearRegression\ex1.txt" />
+    <Content Include="CART\bikeSpeedVsIq_test.txt" />
+    <Content Include="CART\bikeSpeedVsIq_train.txt" />
+    <Content Include="CART\ex0.txt" />
+    <Content Include="CART\ex00.txt" />
+    <Content Include="CART\ex2.txt" />
+    <Content Include="CART\ex2test.txt" />
+    <Content Include="CART\exp.txt" />
+    <Content Include="CART\exp2.txt" />
+    <Content Include="CART\expTest.txt" />
+    <Content Include="CART\sine.txt" />
+    <Content Include="Apriori\mushroom.dat" />
+    <Content Include="FpGrowth\kosarak.dat" />
+    <Content Include="GBDT\.git\config" />
+    <Content Include="GBDT\.git\description" />
+    <Content Include="GBDT\.git\HEAD" />
+    <Content Include="GBDT\.git\hooks\applypatch-msg.sample" />
+    <Content Include="GBDT\.git\hooks\commit-msg.sample" />
+    <Content Include="GBDT\.git\hooks\post-update.sample" />
+    <Content Include="GBDT\.git\hooks\pre-applypatch.sample" />
+    <Content Include="GBDT\.git\hooks\pre-commit.sample" />
+    <Content Include="GBDT\.git\hooks\pre-push.sample" />
+    <Content Include="GBDT\.git\hooks\pre-rebase.sample" />
+    <Content Include="GBDT\.git\hooks\pre-receive.sample" />
+    <Content Include="GBDT\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="GBDT\.git\hooks\update.sample" />
+    <Content Include="GBDT\.git\index" />
+    <Content Include="GBDT\.git\info\exclude" />
+    <Content Include="GBDT\.git\logs\HEAD" />
+    <Content Include="GBDT\.git\logs\refs\heads\master" />
+    <Content Include="GBDT\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="GBDT\.git\objects\02\361e959cada190114fcb8f561ce37852c8fe4c" />
+    <Content Include="GBDT\.git\objects\08\85a89bdfeff4c096af29463557bae04ea033f4" />
+    <Content Include="GBDT\.git\objects\0e\3062ded069d401ad1239e82078a379671cccf9" />
+    <Content Include="GBDT\.git\objects\10\fba4fff99e9376c205910b37fff9a8993ec58a" />
+    <Content Include="GBDT\.git\objects\14\1308233aad3353a72204988f3980dcd9cd7324" />
+    <Content Include="GBDT\.git\objects\16\2ef2d60098c44bd9a9acc368421fd4013fe806" />
+    <Content Include="GBDT\.git\objects\1a\33777150e0b34989d07d84387ef5bbff32d551" />
+    <Content Include="GBDT\.git\objects\28\a8f82ca2cd46fb4c273acd0b19999a2239927c" />
+    <Content Include="GBDT\.git\objects\29\acc57b657939f5971005f728d87d9df3318989" />
+    <Content Include="GBDT\.git\objects\34\58eec247a273ea10e96a9fe99ed5b57a12d006" />
+    <Content Include="GBDT\.git\objects\37\f448d6b46ccdd606aa6c7af49c21942dc47ac0" />
+    <Content Include="GBDT\.git\objects\53\3cd426a83f91fd4b1b7200da290f756587563e" />
+    <Content Include="GBDT\.git\objects\5b\4cd87d7d63010644781d8247d5d472b37e6e45" />
+    <Content Include="GBDT\.git\objects\5c\e50ce9ba159482bfc40a4a3379333837c92aff" />
+    <Content Include="GBDT\.git\objects\5d\7970a9469820815496cc72e125f2dd859ff23e" />
+    <Content Include="GBDT\.git\objects\66\3f87b94e9300bfed8759d090f525e8ff7d59a5" />
+    <Content Include="GBDT\.git\objects\67\722d33f8413f174bde16fb79023b9c7866c455" />
+    <Content Include="GBDT\.git\objects\6b\0a252fbed377c5e55b5e77c7bb3443d1cb3a40" />
+    <Content Include="GBDT\.git\objects\70\76ec537617d215190dc3636a6580bd17319987" />
+    <Content Include="GBDT\.git\objects\72\055ce21e83fa15a73644199c5867d1b52b2fad" />
+    <Content Include="GBDT\.git\objects\72\812d4cc6a1ceb3bf33388f70679d45a77e1a84" />
+    <Content Include="GBDT\.git\objects\73\1b10cf40e54371ac903dc320f23e4c0997b47a" />
+    <Content Include="GBDT\.git\objects\74\c1ab139efc5624fefbae15aa97ee930b184e5a" />
+    <Content Include="GBDT\.git\objects\79\2c344cad52eb4390e97be59e61882f87afb512" />
+    <Content Include="GBDT\.git\objects\8e\f72c81da7b6242301bbbd419bbe9c8891399b6" />
+    <Content Include="GBDT\.git\objects\96\1930bbba3868904227cbc8dcdb423608d7295d" />
+    <Content Include="GBDT\.git\objects\99\19a917e74d733901e2d3d59c3725d6d68c210d" />
+    <Content Include="GBDT\.git\objects\a1\dd46ea88a45e1b6e25aa0c97967769dbc7ea4e" />
+    <Content Include="GBDT\.git\objects\a2\492d03fabfedffa84f5ed44222196f823e50b2" />
+    <Content Include="GBDT\.git\objects\ae\d6838b2ff2e37d775e220e5fef53ee81a43e0e" />
+    <Content Include="GBDT\.git\objects\b2\7a04d7a99b683bdc3d5afb36db3f3a7eb7e09c" />
+    <Content Include="GBDT\.git\objects\b8\cd04920d353a3c9067e0815d4887661c18e27c" />
+    <Content Include="GBDT\.git\objects\b8\f7faf2bcbdfb9f41e1ad3d59b7271bbe49abdf" />
+    <Content Include="GBDT\.git\objects\c0\028d0a16533413588b7f5872f6097c19dec64e" />
+    <Content Include="GBDT\.git\objects\c4\a7bd454a8b9ffdb0dceb6fbfd4e6825f8570d0" />
+    <Content Include="GBDT\.git\objects\c9\5d615bbfbe71c5cf1cfc25cb4c2464f90133f2" />
+    <Content Include="GBDT\.git\objects\cc\2811e592b78f85f8455947153f0f3879717640" />
+    <Content Include="GBDT\.git\objects\d3\09c6123a77548eac8468b73ec171213d7ee453" />
+    <Content Include="GBDT\.git\objects\d5\19fac0080f3d947a7e51c6d0f1a5b48f67de3c" />
+    <Content Include="GBDT\.git\objects\da\aad76d2191a894f70c448343159f8dd669cd0d" />
+    <Content Include="GBDT\.git\objects\de\ac49e0b9e1bdccec18dcb39508ed0bba062b33" />
+    <Content Include="GBDT\.git\objects\e6\51edae557629923c6cc1d83a15998910906379" />
+    <Content Include="GBDT\.git\objects\e7\1d9707445190dd410359ee700427ca97cd37d6" />
+    <Content Include="GBDT\.git\objects\e8\239e48f4ac8c309537d5d920cfb90750ee7922" />
+    <Content Include="GBDT\.git\objects\f0\c6aef9daba268b4215fb6d2d08d8e6c342399b" />
+    <Content Include="GBDT\.git\objects\f8\e5ed7313dc4c1022668b0c8790535523db033a" />
+    <Content Include="GBDT\.git\packed-refs" />
+    <Content Include="GBDT\.git\refs\heads\master" />
+    <Content Include="GBDT\.git\refs\remotes\origin\HEAD" />
+    <Content Include="GBDT\data\credit.data.csv" />
+    <Content Include="GBDT\GBDT.ipynb" />
+    <Content Include="GBDT\README.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

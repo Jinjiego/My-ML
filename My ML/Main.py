@@ -1,27 +1,34 @@
 ﻿
-from CH03.DTreeTest  import *
-from Ch05.Logistic import *
-from Ch07.AdaBoost import *
-from Ch08.Regression import *
-from Ch09.CART import *
-from Ch11.Apriori import  *
-from Ch12.FP_growth import *
+from DecisionTree.DTreeTest  import *
+from LogisticRegression.Logistic import *
+from Boost.AdaBoost import *
+from LinearRegression.Regression import *
+from CART.CART import *
+from Apriori.Apriori import  *
+from FpGrowth.FP_growth import *
+from additions.CRF.crf_test import *
 def main():
-     rgess=Regression()
-     rgess.debug()
-
+     
      fp=FP_growth()
      fp.debug()
+
+     test();
+
+     cart=CART()       #CART 
+     cart.Invoker()
+
+     dtree=DTreeTest() #ID3
+     dtree.test()  
+
+
+     rgess=Regression()
+     rgess.debug()
 
      apr=Apriori()
      apr.debug()
 
-     dtree=DTreeTest()
-     #dtree.test()
      ab=AdaBoost()
      # ab.Invoker()
-     cart=CART()
-     cart.Invoker()
 
 if __name__=='__main__':
        main()
